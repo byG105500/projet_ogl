@@ -1,0 +1,29 @@
+Utilisation Git sous Ubuntu :
+sudo apt-get install gitg
+sudo apt-get install meld
+
+
+git clone (lien git hub du projet)
+
+git pull -> F5 
+
+gitg (pour commit)
+
+git push
+
+En cas de conflit lors du push :
+git pull
+si échec : git mergetool
+		   git commit -m "merge"
+		   git push
+
+
+pour creer un projet : 
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit
+git remote add origin https://github.com/username/projectname.git
+git push -u origin master
+
