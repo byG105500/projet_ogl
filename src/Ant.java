@@ -1,5 +1,5 @@
 public abstract class Ant {
-
+    //
     private int numberAvailable;
 
     public Ant(int numberAvalable) {
